@@ -1,0 +1,13 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ubuntu/swvl-hackfest-rest
+    overwrite: true
+hooks:
+  BeforeInstall:
+    - location: ci_hook_scripts/beforeInstallHook.sh
+      timeout: 300
+  AfterInstall:
+    - location: ci_hook_scripts/afterInstallHook.sh
+      timeout: 300

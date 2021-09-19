@@ -1,0 +1,22 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-console": 1,
+    "no-constant-condition": 1,
+    "array-callback-return": "error",
+    "strict": "error",
+    "no-const-assign": "error",
+    "no-this-before-super": "error",
+    "no-useless-constructor": "warn",
+    "callback-return": [
+      "error",
+      [
+        "done",
+        "cb"
+      ]
+    ]
+  }
+}

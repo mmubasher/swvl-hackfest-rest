@@ -1,0 +1,57 @@
+{
+  "name": "swvl-hackfest-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmubasher/swvl-hackfest-rest.git"
+  },
+  "author": "team-263",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmubasher/swvl-hackfest-rest/issues"
+  },
+  "homepage": "https://github.com/mmubasher/swvl-hackfest-rest#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.175.0",
+    "bcrypt": "2.0.0",
+    "cron": "^1.3.0",
+    "dotenv": "^4.0.0",
+    "firebase-admin": "^5.12.1",
+    "fs": "0.0.1-security",
+    "fs-extra": "^4.0.3",
+    "hapi": "^16.6.2",
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-pagination": "^1.22.0",
+    "hapi-sanitize-payload": "^1.5.0",
+    "hapi-swagger": "^8.0.0",
+    "http-status-codes": "^1.3.0",
+    "inert": "^4.2.1",
+    "jsonwebtoken": "^8.1.0",
+    "mobile-detect": "^1.4.1",
+    "mysql2": "^1.7.0",
+    "nodemailer": "^4.4.1",
+    "only": "0.0.2",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5",
+    "sequelize": "^4.27.0",
+    "sharp": "^0.19.0",
+    "stripe": "^5.5.0",
+    "system-sleep": "^1.3.6",
+    "twilio": "^3.14.0",
+    "uuid": "^3.1.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {
+    "mysql": "^2.15.0",
+    "sequelize-auto": "^0.4.29",
+    "node": "^8.17.0",
+    "pm2": "^4.5.0"
+  }
+}
